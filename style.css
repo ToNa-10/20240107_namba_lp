@@ -1,0 +1,396 @@
+body{
+    line-height: 1.5;
+}
+
+.icon, .firstview__ttl2{
+    font-family: fantasy;
+    color: rgb(198, 50, 147);
+}
+.icon{
+    padding-top: 20px;
+}
+
+.icon__ttl{
+    font-size: 30px;
+    color: gray;
+}
+
+.icon{
+    margin-bottom: 20px;
+}
+
+.box1{
+    padding-bottom: 30px;
+    a {
+        text-decoration: none;
+        color: #7f7d73;
+        }
+    .header{
+        .header__img {
+            background: url("img/estra_logo.png") no-repeat left /200px 50px;
+            height: 100px;
+            width: 200px;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        padding-left: 30px;
+        margin-right: 200px;
+    }
+    .header-nav-list{
+        display: flex;
+        font-weight: bold;
+    }
+    .header__nav__item:not(:last-child){
+        padding-right: 10%;
+    }
+}
+
+main{
+    .box2{
+        display: block;
+        height: 600px;
+        background: url("img/firstview.jpg") no-repeat right / 600px 600px;
+        background-position: right top;
+        .firstview__ttl{
+            padding: 15% 20% 20% 28%;
+        }
+        .firstview__ttl2 {
+            font-size: 50px;
+            margin-bottom: 50px;
+        }
+        .firstview__ttl__span{
+            color: #049fb3;
+        }
+        .firstview__txt{
+            font-size: 20px;
+            color: rgb(198, 50, 147);
+        }
+        .firstview__txt2{
+            color: grey;
+        }
+
+    }
+}
+
+.box3{
+    width: 70%;
+    height: 400px;
+    padding-left:200px;
+    padding-bottom: 50px;
+    color: #999;
+    .icon__ttl{
+        margin-bottom: 10px;
+    }
+    .list__ul{
+        border-top: 2px solid #999;
+        border-bottom: 2px solid #999;
+    }
+    .list__li {
+        line-height: 1.4;
+        border-bottom: 1px solid #999;
+        margin: 10px 0;
+    }
+    .list__li{
+        display: flex;
+        align-items: baseline;
+        padding: 10px 6px;
+        list-style: none;
+    }
+    .span__list{
+        margin: 0 20px;
+        width: 100px;
+        height: 20px;
+        background: #de0d8a;
+        border-radius: 30px;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.box4{
+    height: 500px;
+    background-color: gainsboro;
+    color: #999;
+    padding-top: 50px;
+    text-align: center;
+    br {
+        display: block;
+        content: "";
+        margin: 30px 0;
+    }
+    .coaching{
+        width: 390px;
+        padding-top: 50px;
+        padding-left: 20%;
+        text-align: left;
+    }
+    .about__img{
+        padding-right: 10%;
+        display: flex;
+        justify-content: right;
+    }
+    .img__about{
+        width: 30%;
+        height: 10%;
+        margin-top: -15%;
+    }
+}
+
+.box5{
+    height: 500px;
+    display: flex;
+    display: block;
+    padding-top: 20px;
+    padding-left: 100px;
+    .service__item{
+        color: #fff;
+        margin-top: 30px;
+    }
+    .service__ttl{
+        margin: auto;
+        padding-bottom: 5%;
+    }
+    .service__txt{
+        font-size: 14px;
+    }
+    .img__service2{
+        vertical-align: top;
+    }
+    .service__box1{
+        .img__service {
+            background: url("img/service__first.svg") no-repeat left / 80px;
+            height: 100px;
+            width: 100px;
+            margin-left: 40%;
+            margin-top: 10px;
+        }
+        width: 40%;
+        height: 300px;
+        float: left;
+        text-align: center;
+        background-color: mediumvioletred;
+
+        .service__txt1{
+            width: 80%;
+            margin-left: 20px;
+            text-align: left;
+        }
+    }
+    .service__box2{
+        width: 40%;
+        height: 150px;
+        float: left;
+        .service__txt {
+            width: 80%;
+            margin-left: 10%;
+        }
+        .service__box__txt{
+            height: 150px;
+        }
+            .img__service2 {
+                background: url("img/service__first.svg") no-repeat left / 80px;
+                height: 100px;
+                width: 100px;
+                margin: 10px 30px;
+            }
+            .service__icon{
+                padding-top: 5%;
+                padding-bottom: 10%;
+            }
+            .service__txt2{
+                font-size: 1.1vw;
+            }
+        .service__item1{
+            height: 100%;
+            display: flex;
+            background-color: purple;
+        }
+
+        .service__item2{
+            height: 100%;
+            display: flex;
+            background-color: mediumpurple;
+        }
+    }
+}
+
+.box6{
+    height: 600px;
+    display: flex;
+    display: block;
+    background: gainsboro;
+    color: #999;
+    margin-bottom: 10px;
+    .icon__block{
+        padding-left: 15%;
+        padding-right: 80%;
+    }
+    .blog__set{
+        text-align: center;
+    }
+    .blog__box{
+        display: inline-block;
+        width: 300px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        .blog__item{
+            background-color: #fff;
+            border-radius: 30px;
+            width: 250px;
+            height: 300px;
+            .blog__icon {
+                background-color: #de0d8a;
+                color: #fff;
+                width: 80px;
+                height: 30px;
+                border-top-left-radius: 30px;
+                }
+            .blog__first{
+                background-image: url("img/blog__first.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 50%;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+            }
+            .blog__txt{
+                font-size: 15px;
+                padding: 30px 10px;
+            }
+            .blog__txt__icon{
+                text-align: left;
+                font-size: small;
+                .blog__date{
+                    display: inline;
+                    padding-left: 20px;
+                }
+                .blog__coach{
+                    display: inline;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+    .blog__page {
+        width: 100%;
+        margin-left: 42%;
+        margin-right: 50%;
+    }
+    .blog__page-red{
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20px;
+        background: #fff;
+        border-radius: 30px;
+        border: solid 1px #de0d8a;
+        color: #de0d8a;
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+.box7{
+    height: 600px;
+    padding-left: 20%;
+    padding-right: 20%;
+    table th,
+    table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    table th {
+        font-weight: bold;
+        background-color: #dedede;
+    }
+    .company__th{
+        padding-right: 100px;
+    }
+    .company__td{
+        padding-right: 300px;
+    }
+
+}
+
+.box8{
+    height: 300px;
+    .information__ttl{
+        margin-top: 20%;
+        margin-bottom: 25%;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+    }
+    .information{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .recruit{
+        background-image: url("img/recruit.png");
+        width: 50%;
+        background-position: center;
+    }
+    .interview {
+        background-image: url("img/interview.png");
+        width: 50%;
+        background-position: center;
+    }
+}
+
+.box9{
+    height: 300px;
+    text-align: center;
+    .contact{
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .line{
+            height: 50px;
+            width: 1px;
+            background-color: #de0d8a;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        a{
+            display: block;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .contact__icon{
+            height: 50px;
+            width: 200px;
+            background: linear-gradient(to right,#de0d8a,#b0096b);
+            border-radius: 30px;
+            box-shadow: 0 5px #5c0437;
+            position: relative;
+        }
+        .contact__txt{
+            color: #fff;
+            line-height: 50px;
+        }
+        .contact__mail{
+            height: 50px;
+            width: 50px;
+            background: url("img/mailicon.svg") no-repeat center / 25px 25px;
+            position: absolute;
+        }
+    }
+}
+
+.box10{
+    height: 40px;
+    background: #dedede;
+    text-align: center;
+    color: #999;
+    font-size: small;
+    padding-top: 20px;
+}
