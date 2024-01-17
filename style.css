@@ -51,7 +51,7 @@ main{
     .box2{
         display: block;
         height: 600px;
-        background: url("img/firstview.jpg") no-repeat right / 600px 600px;
+        background: url("img/firstview.jpg") no-repeat right / 50% 80%;
         background-position: right top;
         .firstview__ttl{
             padding: 15% 20% 20% 28%;
@@ -174,7 +174,8 @@ main{
 
         .service__txt1{
             width: 80%;
-            margin-left: 20px;
+            margin-left: auto;
+            margin-right: auto;
             text-align: left;
         }
     }
@@ -232,7 +233,7 @@ main{
     }
     .blog__box{
         display: inline-block;
-        width: 300px;
+        /* width: 300px; */
         padding-top: 50px;
         padding-bottom: 20px;
         .blog__item{
