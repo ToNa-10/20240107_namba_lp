@@ -26,9 +26,8 @@ body{
         color: #7f7d73;
         }
     .header{
-        .header__img {
-            background: url("img/estra_logo.png") no-repeat left /200px 50px;
-            height: 100px;
+        img{
+            height: 50px;
             width: 200px;
         }
         display: flex;
@@ -127,9 +126,14 @@ main{
         text-align: left;
     }
     .about__img{
-        padding-right: 10%;
+        /* padding-right: 10%; */
         display: flex;
-        justify-content: right;
+        
+        width: 300px;
+        height: 200px;
+        margin-top: -15%;
+        margin-left: auto;
+        margin-right: 10%;
     }
     .img__about{
         width: 30%;
