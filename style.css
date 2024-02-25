@@ -20,22 +20,18 @@ body{
 }
 
 .box1{
-    padding-bottom: 30px;
     a {
         text-decoration: none;
         color: #7f7d73;
         }
-    .header{
-        img{
-            height: 50px;
-            width: 200px;
+    img {
+        height: 50px;
+        width: 200px;
+        margin-left: 20px;
         }
+    .header{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100px;
-        padding-left: 30px;
-        margin-right: 200px;
+        margin-left: 600px;
     }
     .header-nav-list{
         display: flex;
@@ -49,11 +45,10 @@ body{
 main{
     .box2{
         display: block;
-        height: 600px;
+        height: 500px;
         background: url("img/firstview.jpg") no-repeat right / 50% 80%;
-        background-position: right top;
         .firstview__ttl{
-            padding: 15% 20% 20% 28%;
+            padding: 10% 20% 20% 28%;
         }
         .firstview__ttl2 {
             font-size: 50px;
